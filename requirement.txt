@@ -1,0 +1,24 @@
+# Tested with Python 3.10.18
+
+# Core deep learning
+torch==2.2.2
+
+# Numerical and scientific
+numpy>=1.24,<2.0
+scipy>=1.10
+
+# Plotting
+matplotlib>=3.7
+seaborn>=0.12
+
+# Dimensionality reduction (used in representation_analysis.py)
+scikit-learn>=1.3
+
+# Statistics (Welch's t, Cohen's d)
+# scipy.stats covers this — already included above
+
+# Progress bars (commonly used in training loops)
+tqdm>=4.65
+
+# JSON handling for multi-seed result aggregation
+# (stdlib — no install needed)
